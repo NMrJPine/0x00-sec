@@ -347,7 +347,10 @@ function ContactPageView({ s, lang, setLang, onBack }: {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}`;
 
   return (
-    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", position: "relative", overflow: "hidden" }}>
+      <div style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", zIndex: 0, pointerEvents: "none" }}>
+        <HeroCanvas />
+      </div>
       {/* Top bar */}
       <header style={{ borderBottom: "1px solid var(--border)", padding: "16px 0", position: "relative", zIndex: 10 }}>
         <div className="container" style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
