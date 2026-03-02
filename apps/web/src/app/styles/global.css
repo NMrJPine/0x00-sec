@@ -59,7 +59,7 @@ button {
 }
 
 @media (max-width: 768px) {
-  button > .lang-label {
+  .lang-toggle > .lang-label {
     display: none;
   }
 }

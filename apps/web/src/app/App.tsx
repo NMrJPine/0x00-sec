@@ -103,6 +103,7 @@ function LangSwitcher({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => voi
   return (
     <div ref={ref} style={{ position: "relative" }}>
       <button
+        className="lang-toggle"
         onClick={() => setOpen(!open)}
         style={{
           background: "var(--bg-card)", border: "1px solid var(--border)", borderRadius: "8px",
