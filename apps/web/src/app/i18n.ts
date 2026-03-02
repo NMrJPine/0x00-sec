@@ -14,8 +14,27 @@ interface Translations {
   lessons: string;
   ctaTitle: string;
   ctaSub: string;
-  stripeNote: string;
+  ctaButton: string;
+  contactEmail: string;
   backToModules: string;
+  // Contact page
+  back: string;
+  contactFormTitle: string;
+  contactName: string;
+  contactEmailLabel: string;
+  contactEmailInvalid: string;
+  contactSubject: string;
+  contactMessage: string;
+  contactSend: string;
+  contactSending: string;
+  contactSuccess: string;
+  contactSendAnother: string;
+  contactError: string;
+  contactRatelimit: string;
+  contactDirectTitle: string;
+  contactWhatsapp: string;
+  contactWhatsappDesc: string;
+  contactEmailCta: string;
   // difficulties
   beginner: string;
   intermediate: string;
@@ -108,9 +127,27 @@ export const t: Record<Lang, Translations> = {
     modulesSub: "Corsi in presenza a Catania \u2014 dalle basi all'exploitation avanzata.",
     lessons: "lezioni",
     ctaTitle: "Pronto a metterti in gioco?",
-    ctaSub: "Iscriviti ai corsi di cybersecurity in presenza a Catania. Laboratori pratici, scenari reali, docenti esperti.",
-    stripeNote: "Pagamento sicuro tramite Stripe.",
+    ctaSub: "Contattaci per iscriverti ai corsi di cybersecurity in presenza a Catania. Laboratori pratici, scenari reali, docenti esperti.",
+    ctaButton: "Contattaci",
+    contactEmail: "rapisarda9900@gmail.com",
     backToModules: "Torna ai moduli",
+    back: "Indietro",
+    contactFormTitle: "Inviaci un messaggio",
+    contactName: "Nome",
+    contactEmailLabel: "Email",
+    contactEmailInvalid: "Inserisci un indirizzo email valido",
+    contactSubject: "Oggetto",
+    contactMessage: "Messaggio",
+    contactSend: "Invia messaggio",
+    contactSending: "Invio in corso...",
+    contactSuccess: "Messaggio inviato con successo!",
+    contactSendAnother: "Invia un altro messaggio",
+    contactError: "Errore nell'invio. Riprova.",
+    contactRatelimit: "Troppi messaggi. Riprova pi\u00f9 tardi.",
+    contactDirectTitle: "Contatto diretto",
+    contactWhatsapp: "WhatsApp",
+    contactWhatsappDesc: "Risposta rapida, di solito entro poche ore.",
+    contactEmailCta: "Scrivici un'email",
     beginner: "Principiante",
     intermediate: "Intermedio",
     advanced: "Avanzato",
@@ -255,9 +292,27 @@ export const t: Record<Lang, Translations> = {
     modulesSub: "In-person courses in Catania \u2014 from fundamentals to advanced exploitation.",
     lessons: "lessons",
     ctaTitle: "Ready to level up?",
-    ctaSub: "Enroll in hands-on cybersecurity courses in Catania. Practical labs, real-world scenarios, expert instruction.",
-    stripeNote: "Secure payment via Stripe.",
+    ctaSub: "Get in touch to enroll in hands-on cybersecurity courses in Catania. Practical labs, real-world scenarios, expert instruction.",
+    ctaButton: "Contact Us",
+    contactEmail: "rapisarda9900@gmail.com",
     backToModules: "Back to modules",
+    back: "Back",
+    contactFormTitle: "Send us a message",
+    contactName: "Name",
+    contactEmailLabel: "Email",
+    contactEmailInvalid: "Please enter a valid email address",
+    contactSubject: "Subject",
+    contactMessage: "Message",
+    contactSend: "Send message",
+    contactSending: "Sending...",
+    contactSuccess: "Message sent successfully!",
+    contactSendAnother: "Send another message",
+    contactError: "Failed to send. Please try again.",
+    contactRatelimit: "Too many messages. Please try again later.",
+    contactDirectTitle: "Direct contact",
+    contactWhatsapp: "WhatsApp",
+    contactWhatsappDesc: "Quick response, usually within a few hours.",
+    contactEmailCta: "Send us an email",
     beginner: "Beginner",
     intermediate: "Intermediate",
     advanced: "Advanced",
@@ -400,9 +455,27 @@ export const t: Record<Lang, Translations> = {
     modulesSub: "Cursos presenciales en Catania \u2014 desde los fundamentos hasta la explotaci\u00f3n avanzada.",
     lessons: "lecciones",
     ctaTitle: "\u00bfListo para dar el salto?",
-    ctaSub: "Inscr\u00edbete en los cursos presenciales de ciberseguridad en Catania. Laboratorios pr\u00e1cticos, escenarios reales, instrucci\u00f3n experta.",
-    stripeNote: "Pago seguro a trav\u00e9s de Stripe.",
+    ctaSub: "Cont\u00e1ctanos para inscribirte en los cursos presenciales de ciberseguridad en Catania. Laboratorios pr\u00e1cticos, escenarios reales, instrucci\u00f3n experta.",
+    ctaButton: "Cont\u00e1ctanos",
+    contactEmail: "rapisarda9900@gmail.com",
     backToModules: "Volver a los m\u00f3dulos",
+    back: "Volver",
+    contactFormTitle: "Env\u00edanos un mensaje",
+    contactName: "Nombre",
+    contactEmailLabel: "Email",
+    contactEmailInvalid: "Introduce una direcci\u00f3n de email v\u00e1lida",
+    contactSubject: "Asunto",
+    contactMessage: "Mensaje",
+    contactSend: "Enviar mensaje",
+    contactSending: "Enviando...",
+    contactSuccess: "\u00a1Mensaje enviado con \u00e9xito!",
+    contactSendAnother: "Enviar otro mensaje",
+    contactError: "Error al enviar. Int\u00e9ntalo de nuevo.",
+    contactRatelimit: "Demasiados mensajes. Int\u00e9ntalo m\u00e1s tarde.",
+    contactDirectTitle: "Contacto directo",
+    contactWhatsapp: "WhatsApp",
+    contactWhatsappDesc: "Respuesta r\u00e1pida, generalmente en pocas horas.",
+    contactEmailCta: "Env\u00edanos un email",
     beginner: "Principiante",
     intermediate: "Intermedio",
     advanced: "Avanzado",
