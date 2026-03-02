@@ -111,6 +111,7 @@ function LangSwitcher({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => voi
         }}
       >
         <span style={{ fontSize: "1.15rem", lineHeight: 1 }}>{current.flag}</span>
+        <span className="lang-label">{current.label}</span>
         <span style={{ fontSize: "0.6rem", color: "var(--text-secondary)" }}>{open ? "\u25B2" : "\u25BC"}</span>
       </button>
       {open && (
@@ -133,6 +134,7 @@ function LangSwitcher({ lang, setLang }: { lang: Lang; setLang: (l: Lang) => voi
               onMouseLeave={(e) => { if (l.code !== lang) e.currentTarget.style.background = "transparent"; }}
             >
               <span style={{ fontSize: "1.15rem", lineHeight: 1 }}>{l.flag}</span>
+              <span className="lang-label">{l.label}</span>
             </button>
           ))}
         </div>
